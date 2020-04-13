@@ -24,6 +24,8 @@ for i in data:
 
 sk.quit()
 ```
+## Usage documentation
+
 ## Dependency
 ```selenium```
 ## Driver
