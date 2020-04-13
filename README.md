@@ -25,8 +25,7 @@ for i in data:
 sk.quit()
 ```
 ## Usage documentation
-###### sheet(datasheet)
-Row to the list
+###### sheet(datasheet) ```Row to the list```
 
 ## Dependency
 ```selenium```
