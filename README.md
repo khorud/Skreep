@@ -28,6 +28,8 @@ sk.quit()
 * ```sheet(str)``` : Load datasheet
 * ```Skreep()``` : Main Class
 * ```Save(name=str, ext=str)``` : Save file, ```ext:default extension is``` csv
+* ```display(var)``` or ```.text``` : print
+* ```dl(url, set=str|list)``` : Download file, ```set:default is``` single file
 
 ## Dependency
 ```selenium```
