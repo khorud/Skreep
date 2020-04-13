@@ -32,10 +32,10 @@ sk.quit()
 * ```dl(url, set=default|list)``` : Download file
 * ```.quit()``` : end
 * ```.get(url, sc=0)``` : get url
-* ```.tag(elm1|elm2, set=default|in, sc=0)``` : tag element
-* ```.clas(elm1|elm2, set=default|in, sc=0)``` : class element
-* ```.id(elm1|elm2, set=default|in, sc=0)``` : id element
-* ```.path(elm1|elm2, set=default|in, sc=0)``` : xpath element
+* ```.tag(elm|elm, elm, set=default|in, sc=0)``` : tag element
+* ```.clas(elm|elm ,elm, set=default|in, sc=0)``` : class element
+* ```.id(elm|elm, elm, set=default|in, sc=0)``` : id element
+* ```.path(elm|elm, elem, set=default|in, sc=0)``` : xpath element
 * ```.paths(elm, sc=0)``` : xpath elements
 * ```.img(args, set=pa|pta|ota, sc=0)``` : Generally used to extract image urls. ```set:pa is default.``` <br />```set=pa``` arguments required : ```path, attribute```<br />```set=pta``` arguments required : ```path, tag, attribute```<br />```set=ota``` arguments required : ```object, tag, attribute```
 
