@@ -32,7 +32,7 @@ sk.quit()
 * ```dl(url, set=default|list)``` : Download file
 * ```.quit()``` : end
 * ```.get(url, sc=0)``` : get url
-* ```.tag(elm|elm, elm, set=default|in, sc=0)``` : tag element
+* ```.tag(args, set=default|in, sc=0)``` : tag element, ```set=in``` arguments required: ```object, tag``` default just use ```tag```
 * ```.clas(elm|elm ,elm, set=default|in, sc=0)``` : class element
 * ```.id(elm|elm, elm, set=default|in, sc=0)``` : id element
 * ```.path(elm|elm, elem, set=default|in, sc=0)``` : xpath element
