@@ -27,6 +27,7 @@ sk.quit()
 ## Usage documentation
 * ```sheet(str)``` : Load datasheet
 * ```Skreep()``` : Main Class
+* ```Save(name=str, ext=str)``` : Save file, Default ```ext``` csv file
 
 ## Dependency
 ```selenium```
