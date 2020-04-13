@@ -3,7 +3,7 @@ It's fun data scraping with just a few lines of code. Basically Skreep is a func
 
 ## Install
 ```Python 3```
-* * *```pip install skreep```
+* ```pip install skreep```
 
 ## Example
 ```
