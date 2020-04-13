@@ -25,7 +25,8 @@ for i in data:
 sk.quit()
 ```
 ## Usage documentation
-* ```sheet(str)``` : Row to lists
+* ```sheet(str)``` : Load datasheet
+* ```Skreep()``` : Main Class
 
 ## Dependency
 ```selenium```
