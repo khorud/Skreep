@@ -2,6 +2,7 @@
 It's fun data scraping with just a few lines of code. Basically Skreep is a function to make it easier to run selenium.
 
 #Example
+```
 from skreep.skreep import Skreep
 from skreep.download import dl
 from skreep.datasheet import sheet
@@ -18,3 +19,4 @@ for i in data:
     sv.save(title)
 
 sk.quit()
+```
