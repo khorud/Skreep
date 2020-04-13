@@ -37,7 +37,7 @@ sk.quit()
 * ```.id(elm1|elm2, set=str|in, sc=int)``` : read section id-name
 * ```.path(elm1|elm2, set=str|in, sc=int)``` : read section xpath-name
 * ```.paths(elm, sc=int)``` : read section list xpath-name
-* ```.img(args, set=pa|pta|ota, sc=int)``` : Generally used to extract image urls. ```set:pa is default.``` <br />```set=pa``` used one argument
+* ```.img(args, set=pa|pta|ota, sc=int)``` : Generally used to extract image urls. ```set:pa is default.``` <br />```set=pa``` use one argument<br \>```set=pta``` use two argument
 
 ## Dependency
 ```selenium```
