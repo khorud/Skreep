@@ -37,7 +37,7 @@ sk.quit()
 * ```.id(elm1|elm2, set=str|in, sc=int)``` : read section id-name
 * ```.path(elm1|elm2, set=str|in, sc=int)``` : read section xpath-name
 * ```.paths(elm, sc=int)``` : read section list xpath-name
-* ```.img(elm1|elm2|elm3, set=pa|pta|ota, sc=int)``` : 
+* ```.img(elm1|elm2|elm3, set=pa|pta|ota, sc=int)``` : Generally used to extract image urls.
 
 ## Dependency
 ```selenium```
