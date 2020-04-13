@@ -31,7 +31,7 @@ sk.quit()
 * ```display(var)``` or ```.text``` : print
 * ```dl(url, set=str|list)``` : Download file, ```set:default is``` single file
 * ```.quit()``` : end
-* ```.get(url, sc=int)``` : get url, ```sc:default is``` 0 seconds
+* ```.get(url, sc=int)``` : get url, ```sc:default wait is``` 0 seconds
 * ```.tag(elm, sc=int)``` : read section tag-name
 * ```.clas(elm, sc=int)``` : read section class-name
 * ```.id(elm, sc=int)``` : read section id-name
