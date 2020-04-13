@@ -32,10 +32,10 @@ sk.quit()
 * ```dl(url, set=str|list)``` : Download file, ```set:default is``` single file
 * ```.quit()``` : end
 * ```.get(url, sc=int)``` : get url, ```sc:default wait is``` 0 seconds
-* ```.tag(var|elm, set=str|in, sc=int)``` : read section tag-name, use ```var``` if ```set=in``` is used
-* ```.clas(var|elm, set=str|in, sc=int)``` : read section class-name
-* ```.id(var|elm, set=str|in, sc=int)``` : read section id-name
-* ```.path(var|elm, set=str|in, sc=int)``` : read section xpath-name
+* ```.tag(elm1|elm2, set=str|in, sc=int)``` : read section tag-name, use ```elm1``` if ```set=in``` is used
+* ```.clas(elm1|elm2, set=str|in, sc=int)``` : read section class-name
+* ```.id(elm1|elm2, set=str|in, sc=int)``` : read section id-name
+* ```.path(elm1|elm2, set=str|in, sc=int)``` : read section xpath-name
 * ```.paths(elm, sc=int)``` : read section list xpath-name
 * ```.img(var1|var2|var3, set=pa|pta|ota, sc=int)``` : 
 
