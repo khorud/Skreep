@@ -37,6 +37,7 @@ sk.quit()
 * ```.id(var|elm, set=str|in, sc=int)``` : read section id-name
 * ```.path(var|elm, set=str|in, sc=int)``` : read section xpath-name
 * ```.paths(elm, sc=int)``` : read section list xpath-name
+* ```.img(var1|var2|var3, set=pa|pta|ota, sc=int)``` : 
 
 ## Dependency
 ```selenium```
