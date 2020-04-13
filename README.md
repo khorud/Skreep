@@ -31,6 +31,9 @@ sk.quit()
 * ```display(var)``` or ```.text``` : print
 * ```dl(url, set=str|list)``` : Download file, ```set:default is``` single file
 * ```.quit()``` : end
+* ```.get(url, sc=int)``` : get url, ```sc:default is``` 0 seconds
+* ```.tag(elm, sc=int)``` : read section tag-name, ```sc:default is``` 0 seconds
+* ```.clas(elm, sc=int)``` : read section class-name, ```sc:default is``` 0 seconds
 
 ## Dependency
 ```selenium```
