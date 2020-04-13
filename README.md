@@ -34,6 +34,9 @@ sk.quit()
 * ```.get(url, sc=int)``` : get url, ```sc:default is``` 0 seconds
 * ```.tag(elm, sc=int)``` : read section tag-name
 * ```.clas(elm, sc=int)``` : read section class-name
+* ```.id(elm, sc=int)``` : read section id-name
+* ```.path(elm, sc=int)``` : read section xpath-name
+* ```.paths(elm, sc=int)``` : read section list xpath-name
 
 ## Dependency
 ```selenium```
