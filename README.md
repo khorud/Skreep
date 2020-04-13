@@ -27,12 +27,12 @@ sk.quit()
 ## Usage documentation
 * ```sheet(str)``` : Load datasheet
 * ```Skreep()``` : Main Class
-* ```Save(name=str, ext=str)``` : Save file, ```ext:default extension is``` csv
+* ```Save(name=str, ext=str)``` : Save file
 * ```display(var)``` or ```.text``` : print
-* ```dl(url, set=str|list)``` : Download file, ```set:default is``` single file
+* ```dl(url, set=str|list)``` : Download file
 * ```.quit()``` : end
-* ```.get(url, sc=int)``` : get url, ```sc:default wait is``` 0 seconds
-* ```.tag(elm1|elm2, set=str|in, sc=int)``` : section tag-name, ```set:default is``` single element
+* ```.get(url, sc=int)``` : get url
+* ```.tag(elm1|elm2, set=str|in, sc=int)``` : section tag-name
 * ```.clas(elm1|elm2, set=str|in, sc=int)``` : section class-name
 * ```.id(elm1|elm2, set=str|in, sc=int)``` : section id-name
 * ```.path(elm1|elm2, set=str|in, sc=int)``` : section xpath-name
