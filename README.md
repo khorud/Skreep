@@ -32,11 +32,11 @@ sk.quit()
 * ```dl(url, set=str|list)``` : Download file, ```set:default is``` single file
 * ```.quit()``` : end
 * ```.get(url, sc=int)``` : get url, ```sc:default wait is``` 0 seconds
-* ```.tag(elm1|elm2, set=str|in, sc=int)``` : read section tag-name, ```set:default is``` single element
-* ```.clas(elm1|elm2, set=str|in, sc=int)``` : read section class-name
-* ```.id(elm1|elm2, set=str|in, sc=int)``` : read section id-name
-* ```.path(elm1|elm2, set=str|in, sc=int)``` : read section xpath-name
-* ```.paths(elm, sc=int)``` : read section list xpath-name
+* ```.tag(elm1|elm2, set=str|in, sc=int)``` : section tag-name, ```set:default is``` single element
+* ```.clas(elm1|elm2, set=str|in, sc=int)``` : section class-name
+* ```.id(elm1|elm2, set=str|in, sc=int)``` : section id-name
+* ```.path(elm1|elm2, set=str|in, sc=int)``` : section xpath-name
+* ```.paths(elm, sc=int)``` : section list xpath-name
 * ```.img(args, set=pa|pta|ota, sc=int)``` : Generally used to extract image urls. ```set:pa is default.``` <br />```set=pa``` arguments required : ```path, attribute```<br />```set=pta``` arguments required : ```path, tag, attribute```<br />```set=ota``` arguments required : ```object, tag, attribute```
 
 ## Dependency
