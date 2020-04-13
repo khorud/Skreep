@@ -20,3 +20,9 @@ for i in data:
 
 sk.quit()
 ```
+# Dependency
+```selenium```
+# Driver
+```https://chromedriver.chromium.org/downloads```
+# Donate
+BTC ```37rkr9cpVVcxg8vUpF65Cp9Mjgu1WrKD3d``` or Paypal Here
