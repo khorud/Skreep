@@ -32,7 +32,7 @@ sk.quit()
 * ```dl(url, set=str|list)``` : Download file, ```set:default is``` single file
 * ```.quit()``` : end
 * ```.get(url, sc=int)``` : get url, ```sc:default wait is``` 0 seconds
-* ```.tag(elm1|elm2, set=str|in, sc=int)``` : read section tag-name, use ```elm1``` if ```set=in``` is used. ```set:default is``` single element
+* ```.tag(elm1|elm2, set=str|in, sc=int)``` : read section tag-name, ```set:default is``` single element
 * ```.clas(elm1|elm2, set=str|in, sc=int)``` : read section class-name
 * ```.id(elm1|elm2, set=str|in, sc=int)``` : read section id-name
 * ```.path(elm1|elm2, set=str|in, sc=int)``` : read section xpath-name
