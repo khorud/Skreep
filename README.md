@@ -25,19 +25,19 @@ for i in data:
 sk.quit()
 ```
 ## Usage documentation
-* ```sheet(str)``` : Load datasheet
+* ```sheet(datasheet)``` : Load datasheet
 * ```Skreep()``` : Main Class
-* ```Save(name=str, ext=str)``` : Save file
-* ```display(var)``` or ```.text``` : print
-* ```dl(url, set=str|list)``` : Download file
+* ```Save(name=file_name, ext=csv|txt)``` : Save file
+* ```display(elm)``` or ```.text``` : print
+* ```dl(url, set=default|list)``` : Download file
 * ```.quit()``` : end
-* ```.get(url, sc=int)``` : get url
-* ```.tag(elm1|elm2, set=str|in, sc=int)``` : tag element
-* ```.clas(elm1|elm2, set=str|in, sc=int)``` : class element
-* ```.id(elm1|elm2, set=str|in, sc=int)``` : id element
-* ```.path(elm1|elm2, set=str|in, sc=int)``` : xpath element
-* ```.paths(elm, sc=int)``` : xpath elements
-* ```.img(args, set=pa|pta|ota, sc=int)``` : Generally used to extract image urls. ```set:pa is default.``` <br />```set=pa``` arguments required : ```path, attribute```<br />```set=pta``` arguments required : ```path, tag, attribute```<br />```set=ota``` arguments required : ```object, tag, attribute```
+* ```.get(url, sc=0)``` : get url
+* ```.tag(elm1|elm2, set=default|in, sc=0)``` : tag element
+* ```.clas(elm1|elm2, set=default|in, sc=0)``` : class element
+* ```.id(elm1|elm2, set=default|in, sc=0)``` : id element
+* ```.path(elm1|elm2, set=default|in, sc=0)``` : xpath element
+* ```.paths(elm, sc=0)``` : xpath elements
+* ```.img(args, set=pa|pta|ota, sc=0)``` : Generally used to extract image urls. ```set:pa is default.``` <br />```set=pa``` arguments required : ```path, attribute```<br />```set=pta``` arguments required : ```path, tag, attribute```<br />```set=ota``` arguments required : ```object, tag, attribute```
 
 ## Dependency
 ```selenium```
