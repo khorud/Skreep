@@ -1,4 +1,5 @@
 # Skreep
+[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/skreep/)
 It's fun data scraping with just a few lines of code. Basically Skreep is a function to make it easier to run selenium.
 
 ## Installation
