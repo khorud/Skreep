@@ -1,5 +1,5 @@
 # Skreep
-[![PyPI version fury.io](https://d25lcipzij17d.cloudfront.net/badge.svg?id=py&type=6&v=0.1.2&x2=0)](https://pypi.org/project/skreep/)<br />
+[![PyPI version fury.io](https://d25lcipzij17d.cloudfront.net/badge.svg?id=py&type=6&v=0.1.3&x2=0)](https://pypi.org/project/skreep/)<br />
 It's fun data scraping with just a few lines of code. Basically Skreep is a function to make it easier to run selenium.
 
 ## Installation
