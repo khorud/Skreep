@@ -33,7 +33,7 @@ sk.quit()
 * ```.quit()``` : end
 * ```.get(url, sc=0)``` : get url
 * ```.tag(args, set=default|in, sc=0)``` : tag element, ```set=in``` arguments required: ```object, tag``` default just use ```tag```
-* ```.clas(args, set=default|in, sc=0)``` : class element
+* ```.cls(args, set=default|in, sc=0)``` : class element
 * ```.id(args, set=default|in, sc=0)``` : id element
 * ```.path(args, set=default|in, sc=0)``` : xpath element
 * ```.paths(args, sc=0)``` : xpath elements, argument required plural path
