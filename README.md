@@ -7,6 +7,7 @@ It's fun data scraping with just a few lines of code. Basically Skreep is a func
 ```python -m pip install -U skreep```
 
 ## Example
+[reference](https://www.youtube.com/channel/UC1d-WpQcyHl3AvLgrFykJbA)
 ```
 from skreep.skreep import Skreep
 from skreep.download import dl
