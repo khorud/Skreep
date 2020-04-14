@@ -42,6 +42,6 @@ sk.quit()
 ## Dependency
 ```selenium```
 ## Driver
-```https://chromedriver.chromium.org/downloads``` must be in the same project directory.
+```Chrome``` ```https://chromedriver.chromium.org/downloads``` must be in the same project directory.
 ## Donate
 BTC ```37rkr9cpVVcxg8vUpF65Cp9Mjgu1WrKD3d``` or Paypal [Here](https://paypal.me/dian26?locale.x=id_ID "Donate")
