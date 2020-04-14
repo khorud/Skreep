@@ -33,10 +33,10 @@ sk.quit()
 * ```.quit()``` : end
 * ```.get(url, sc=0)``` : get url
 * ```.tag(args, set=default|in, sc=0)``` : tag element, ```set=in``` arguments required: ```object, tag``` default just use ```tag```
-* ```.clas(elm|elm ,elm, set=default|in, sc=0)``` : class element
-* ```.id(elm|elm, elm, set=default|in, sc=0)``` : id element
-* ```.path(elm|elm, elem, set=default|in, sc=0)``` : xpath element
-* ```.paths(elm, sc=0)``` : xpath elements
+* ```.clas(args, set=default|in, sc=0)``` : class element
+* ```.id(args, set=default|in, sc=0)``` : id element
+* ```.path(args, set=default|in, sc=0)``` : xpath element
+* ```.paths(args, sc=0)``` : xpath elements, argument required plural path
 * ```.img(args, set=pa|pta|ota, sc=0)``` : Generally used to extract image urls. ```set:pa is default.``` <br />```set=pa``` arguments required : ```path, attribute```<br />```set=pta``` arguments required : ```path, tag, attribute```<br />```set=ota``` arguments required : ```object, tag, attribute```
 
 ## Dependency
