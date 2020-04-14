@@ -37,7 +37,7 @@ sk.quit()
 * ```.cls(args, set=default|in, sc=0)``` : class element
 * ```.id(args, set=default|in, sc=0)``` : id element
 * ```.path(args, set=default|in, sc=0)``` : xpath element
-* ```.paths(args, sc=0)``` : xpath elements, argument required plural path
+* ```.paths(args, set=default|in, sc=0)``` : xpath elements, argument required plural path
 * ```.img(args, set=pa|pta|ota, sc=0)``` : Generally used to extract image urls. ```set:pa is default.``` <br />```set=pa``` arguments required : ```path, attribute```<br />```set=pta``` arguments required : ```path, tag, attribute```<br />```set=ota``` arguments required : ```object, tag, attribute```
 
 ## Dependency
