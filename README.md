@@ -1,5 +1,5 @@
 # Skreep
-[![PyPI version fury.io](https://d25lcipzij17d.cloudfront.net/badge.svg?id=py&type=6&v=0.1.3&x2=0)](https://pypi.org/project/skreep/)<br />
+[![PyPI version fury.io](https://d25lcipzij17d.cloudfront.net/badge.svg?id=py&type=6&v=0.1.4&x2=0)](https://pypi.org/project/skreep/)<br />
 It's fun data scraping with just a few lines of code. Basically Skreep is a function to make it easier to run selenium.
 
 ## Installation
@@ -15,21 +15,22 @@ from skreep.datasheet import sheet
 from skreep.save import Save
 from skreep.display import display
 
-data = sheet('datasheet')
 sk = Skreep()
-sv = Save(name='file_name')
+sv = Save(name='output')
+datasheet = sheet('datasheet')
 
-for i in data:
+for i in datasheet:
     sk.get(i, sc=5)
-    title = display(sk.tag('h1', sc=5))
-    sv.save(title)
-
+    title = sk.tag('h1')
+    print(display(title))
+    sv.save(display(title))
+    
 sk.quit()
 ```
 ## Usage documentation
-* ```sheet(datasheet)``` : Load datasheet
+* ```sheet(datasheet, ext=txt|csv)``` : Load datasheet
 * ```Skreep()``` : Main Class
-* ```Save(name=file_name, ext=csv|txt)``` : Save file
+* ```Save(name=output, ext=csv|txt)``` : Save file
 * ```display(elm)``` or ```.text``` : print
 * ```dl(url, set=default|list)``` : Download file
 * ```.quit()``` : end
